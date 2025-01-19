@@ -1,0 +1,41 @@
+/* src/index.css */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bubbler+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bubbler+One&family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap');
+@import "@fortawesome/fontawesome-free/css/all.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+
+.animate-custom-bounce {
+  animation: customBounce 1s ease-in-out infinite; /* Change 1s to the duration you want */
+}
+
+
+body {
+  /* overflow-x: hidden; */
+  font-family: 'Dancing Script', cursive;
+  /* font-family: "Cormorant"; */
+  /* font-weight: 400; */
+  font-style: normal;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.font-cursive {
+  font-family: 'Dancing Script', cursive;
+}
+
