@@ -41,7 +41,7 @@ const ProjectCard = ({ project }) => {
       </div>
       <div className="md:ml-6 ml-0" data-aos="fade-left">
         <h3 className="text-xl font-bold mb-2">{project.title}</h3>
-        <p className="mb-4">{project.description}</p>
+        <p className="mb-3">{project.description}</p>
         <div className="flex flex-wrap gap-2">
           {project.tags.map((tag, index) => (
             <span
@@ -63,7 +63,7 @@ const ProjectsSection = () => {
   }, []);
 
   return (
-    <section className="bg-gray-800 py-12 overflow-x-hidden">
+    <section id="project"  className="bg-gray-800 py-12 overflow-hidden">
       <div className="container max-w-[1000px] mx-auto px-4">
         <h2
           className="text-3xl font-bold text-white text-center "

@@ -50,9 +50,10 @@ const AboutPage = () => {
             <div className="my-4">
 
             <a
-              href="/path-to-your-cv.pdf" // Replace with actual CV link
+              href="/My_Resume.pdf" // Replace with actual CV link
               className="px-6 py-3  bg-orange-500 text-white font-medium rounded shadow hover:bg-orange-600 transition duration-300 transform hover:scale-105"
               data-aos="zoom-in" // Zoom-in animation for button
+              download={"ankit-simaiya-resume.pdf"}
             >
               Download CV
             </a>

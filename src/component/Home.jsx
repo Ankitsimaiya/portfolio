@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
-import { FaGithub, FaTwitter } from "react-icons/fa";
+import { FaGithub, FaLinkedinIn, FaTwitter } from "react-icons/fa";
+import { BsLinkedin, BsTwitterX } from "react-icons/bs";
 import { SiLeetcode } from "react-icons/si";
 
 const HomePage = () => {
@@ -42,7 +43,7 @@ const HomePage = () => {
           <div className="flex justify-center md:justify-start space-x-6">
             {/* LeetCode */}
             <a
-              href="https://leetcode.com/in/ankitsimaiya"
+              href="https://leetcode.com/ankitsimaiya"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-white text-2xl transform hover:scale-125 transition duration-300"
@@ -60,19 +61,27 @@ const HomePage = () => {
             </a>
             {/* Twitter */}
             <a
-              href="https://twitter.com/ankitsimaiya"
+              href="https://x.com/ankitsimaiya"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-white text-2xl transform hover:scale-125 transition duration-300"
             >
-              <FaTwitter />
+              <BsTwitterX />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/ankitsimaiya/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-400 hover:text-white text-2xl transform hover:scale-125 transition duration-300"
+            >
+             <FaLinkedinIn />
             </a>
           </div>
 
           {/* Button: View Work */}
-          <div className="pb-16">
+          <div className="pb-10">
             <a
-              href="#portfolio"
+              href="#project"
               className="inline-block px-6 py-3 mt-4 text-lg font-medium bg-blue-500 hover:bg-blue-600 text-white rounded shadow-lg transition duration-300 transform hover:scale-105"
             >
               View Work

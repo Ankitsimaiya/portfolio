@@ -4,7 +4,7 @@ import "aos/dist/aos.css"; // Import AOS styles
 
 const experiences = [
   {
-    duration: "2023 - Present",
+    duration: "2024 - Present",
     role: "Full Stack Developer",
     company: "Kumbhadvertise.",
     description:
