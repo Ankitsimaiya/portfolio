@@ -90,7 +90,7 @@ const HomePage = () => {
         </div>
 
         {/* Right Side */}
-        <div className="relative  h-48 w-48 sm:w-72 lg:w-96 sm:h-72 mb-6 lg:pl-24 flex items-center justify-center animate-image-zoom">
+        <div className="relative  h-48 w-48 sm:w-72 lg:w-96 sm:h-72 lg:pl-24 flex items-center justify-center animate-image-zoom">
           <img
             src="./banner01.png"
             alt="Ankit"
