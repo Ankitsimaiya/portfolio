@@ -21,7 +21,7 @@ const HomePage = () => {
   }, []);
 
   return (
-    <div className="w-full h-screen bg-gray-900 font-body text-white overflow-x-hidden">
+    <div className="w-full h-screen bg-gray-900 font-body px-6 text-white overflow-x-hidden">
       <div className="max-w-7xl mx-auto h-full flex flex-col-reverse  md:grid md:grid-cols-2 items-center lg:px-8">
         {/* Left Side */}
         <div className="space-y-6 text-center md:text-left lg:mt-6 md:mt-0 animate-fade-in">
@@ -90,7 +90,7 @@ const HomePage = () => {
         </div>
 
         {/* Right Side */}
-        <div className="relative w-full h-96 md:w-72 lg:w-96 md:h-72 mb-6 lg:pl-24 flex items-center justify-center animate-image-zoom">
+        <div className="relative  h-48 w-48 sm:w-72 lg:w-96 sm:h-72 mb-6 lg:pl-24 flex items-center justify-center animate-image-zoom">
           <img
             src="./banner01.png"
             alt="Ankit"
